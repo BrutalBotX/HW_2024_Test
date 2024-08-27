@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "HW_2024_Test.sln"
+    "dotnet.defaultSolution": "HW_2024_Test-main.sln"
 }
