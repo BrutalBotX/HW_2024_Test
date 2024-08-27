@@ -311,7 +311,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/JSONReader.cs"
 "Assets/Scripts/MainMenu.cs"
-"Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/Mov.cs"
 "Assets/Scripts/Pulpit.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

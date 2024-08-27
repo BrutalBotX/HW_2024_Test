@@ -225,7 +225,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 917961798}
-  - component: {fileID: 917961799}
+  - component: {fileID: 917961800}
+  - component: {fileID: 917961801}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -248,7 +249,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &917961799
+--- !u!114 &917961800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917961796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee053ba72db71841843df26bfcc8085, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &917961801
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -261,12 +274,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pulpitPrefab: {fileID: 6606692285173903318, guid: 5218fed6463996641b619c8135abbb4f, type: 3}
-  pulpitToDestroy: {fileID: 0}
+  pulpitToDestroy: {fileID: 6606692285173903318, guid: 5218fed6463996641b619c8135abbb4f, type: 3}
   maxPulpits: 2
-  minSpawnTime: 3
-  maxSpawnTime: 5
-  minLifespan: 3
-  maxLifespan: 6
+  minSpawnTime: 2.5
+  maxSpawnTime: 2.5
+  minLifespan: 4
+  maxLifespan: 10
   lifespanDisplay: {fileID: 0}
 --- !u!1 &950804359
 GameObject:
@@ -411,12 +424,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 950804359}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b238bd349185e74faff509629702052, type: 3}
+  m_Script: {fileID: 11500000, guid: c5c52d0aee9e08b439ca3710f41556f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 950804364}
+  speed: 3
   InitialPosition: {x: 0, y: 1, z: 0}
-  speed: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
